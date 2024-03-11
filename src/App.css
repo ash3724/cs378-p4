@@ -1,0 +1,88 @@
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e4efff;
+  background-image: linear-gradient(to top right, #e4efff, #a7c7e7);
+  color: #333;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  color: #0056b3;
+  font-size: 2em;
+  text-shadow: 1px 1px 0px #fff;
+  margin-bottom: 1rem;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 22px);
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.2s, transform 0.2s;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.error {
+  color: #ff0000;
+}
+
+.loader, .error {
+  font-size: 18px;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info div {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.weather-info p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
